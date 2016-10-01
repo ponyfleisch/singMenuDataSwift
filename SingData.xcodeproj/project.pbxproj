@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		676BA5EB1DA03B67006DB5BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676BA5EA1DA03B67006DB5BD /* AppDelegate.swift */; };
+		676BA5ED1DA03B67006DB5BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 676BA5EC1DA03B67006DB5BD /* Assets.xcassets */; };
+		676BA5F01DA03B67006DB5BD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 676BA5EE1DA03B67006DB5BD /* MainMenu.xib */; };
+		676BA5FB1DA03B67006DB5BD /* SingDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676BA5FA1DA03B67006DB5BD /* SingDataTests.swift */; };
+		676BA6061DA03B67006DB5BD /* SingDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676BA6051DA03B67006DB5BD /* SingDataUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		676BA5F71DA03B67006DB5BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 676BA5DF1DA03B66006DB5BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 676BA5E61DA03B67006DB5BD;
+			remoteInfo = SingData;
+		};
+		676BA6021DA03B67006DB5BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 676BA5DF1DA03B66006DB5BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 676BA5E61DA03B67006DB5BD;
+			remoteInfo = SingData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		676BA5E71DA03B67006DB5BD /* SingData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		676BA5EA1DA03B67006DB5BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		676BA5EC1DA03B67006DB5BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		676BA5EF1DA03B67006DB5BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		676BA5F11DA03B67006DB5BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		676BA5F61DA03B67006DB5BD /* SingDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		676BA5FA1DA03B67006DB5BD /* SingDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingDataTests.swift; sourceTree = "<group>"; };
+		676BA5FC1DA03B67006DB5BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		676BA6011DA03B67006DB5BD /* SingDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		676BA6051DA03B67006DB5BD /* SingDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingDataUITests.swift; sourceTree = "<group>"; };
+		676BA6071DA03B67006DB5BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		676BA5E41DA03B67006DB5BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		676BA5F31DA03B67006DB5BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		676BA5FE1DA03B67006DB5BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		676BA5DE1DA03B66006DB5BD = {
+			isa = PBXGroup;
+			children = (
+				676BA5E91DA03B67006DB5BD /* SingData */,
+				676BA5F91DA03B67006DB5BD /* SingDataTests */,
+				676BA6041DA03B67006DB5BD /* SingDataUITests */,
+				676BA5E81DA03B67006DB5BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		676BA5E81DA03B67006DB5BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				676BA5E71DA03B67006DB5BD /* SingData.app */,
+				676BA5F61DA03B67006DB5BD /* SingDataTests.xctest */,
+				676BA6011DA03B67006DB5BD /* SingDataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		676BA5E91DA03B67006DB5BD /* SingData */ = {
+			isa = PBXGroup;
+			children = (
+				676BA5EA1DA03B67006DB5BD /* AppDelegate.swift */,
+				676BA5EC1DA03B67006DB5BD /* Assets.xcassets */,
+				676BA5EE1DA03B67006DB5BD /* MainMenu.xib */,
+				676BA5F11DA03B67006DB5BD /* Info.plist */,
+			);
+			path = SingData;
+			sourceTree = "<group>";
+		};
+		676BA5F91DA03B67006DB5BD /* SingDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				676BA5FA1DA03B67006DB5BD /* SingDataTests.swift */,
+				676BA5FC1DA03B67006DB5BD /* Info.plist */,
+			);
+			path = SingDataTests;
+			sourceTree = "<group>";
+		};
+		676BA6041DA03B67006DB5BD /* SingDataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				676BA6051DA03B67006DB5BD /* SingDataUITests.swift */,
+				676BA6071DA03B67006DB5BD /* Info.plist */,
+			);
+			path = SingDataUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		676BA5E61DA03B67006DB5BD /* SingData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 676BA60A1DA03B67006DB5BD /* Build configuration list for PBXNativeTarget "SingData" */;
+			buildPhases = (
+				676BA5E31DA03B67006DB5BD /* Sources */,
+				676BA5E41DA03B67006DB5BD /* Frameworks */,
+				676BA5E51DA03B67006DB5BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SingData;
+			productName = SingData;
+			productReference = 676BA5E71DA03B67006DB5BD /* SingData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		676BA5F51DA03B67006DB5BD /* SingDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 676BA60D1DA03B67006DB5BD /* Build configuration list for PBXNativeTarget "SingDataTests" */;
+			buildPhases = (
+				676BA5F21DA03B67006DB5BD /* Sources */,
+				676BA5F31DA03B67006DB5BD /* Frameworks */,
+				676BA5F41DA03B67006DB5BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				676BA5F81DA03B67006DB5BD /* PBXTargetDependency */,
+			);
+			name = SingDataTests;
+			productName = SingDataTests;
+			productReference = 676BA5F61DA03B67006DB5BD /* SingDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		676BA6001DA03B67006DB5BD /* SingDataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 676BA6101DA03B67006DB5BD /* Build configuration list for PBXNativeTarget "SingDataUITests" */;
+			buildPhases = (
+				676BA5FD1DA03B67006DB5BD /* Sources */,
+				676BA5FE1DA03B67006DB5BD /* Frameworks */,
+				676BA5FF1DA03B67006DB5BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				676BA6031DA03B67006DB5BD /* PBXTargetDependency */,
+			);
+			name = SingDataUITests;
+			productName = SingDataUITests;
+			productReference = 676BA6011DA03B67006DB5BD /* SingDataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		676BA5DF1DA03B66006DB5BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Claudio Mettler";
+				TargetAttributes = {
+					676BA5E61DA03B67006DB5BD = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8J5GF94X5S;
+						ProvisioningStyle = Automatic;
+					};
+					676BA5F51DA03B67006DB5BD = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8J5GF94X5S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 676BA5E61DA03B67006DB5BD;
+					};
+					676BA6001DA03B67006DB5BD = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8J5GF94X5S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 676BA5E61DA03B67006DB5BD;
+					};
+				};
+			};
+			buildConfigurationList = 676BA5E21DA03B66006DB5BD /* Build configuration list for PBXProject "SingData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 676BA5DE1DA03B66006DB5BD;
+			productRefGroup = 676BA5E81DA03B67006DB5BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				676BA5E61DA03B67006DB5BD /* SingData */,
+				676BA5F51DA03B67006DB5BD /* SingDataTests */,
+				676BA6001DA03B67006DB5BD /* SingDataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		676BA5E51DA03B67006DB5BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676BA5ED1DA03B67006DB5BD /* Assets.xcassets in Resources */,
+				676BA5F01DA03B67006DB5BD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		676BA5F41DA03B67006DB5BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		676BA5FF1DA03B67006DB5BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		676BA5E31DA03B67006DB5BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676BA5EB1DA03B67006DB5BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		676BA5F21DA03B67006DB5BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676BA5FB1DA03B67006DB5BD /* SingDataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		676BA5FD1DA03B67006DB5BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676BA6061DA03B67006DB5BD /* SingDataUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		676BA5F81DA03B67006DB5BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 676BA5E61DA03B67006DB5BD /* SingData */;
+			targetProxy = 676BA5F71DA03B67006DB5BD /* PBXContainerItemProxy */;
+		};
+		676BA6031DA03B67006DB5BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 676BA5E61DA03B67006DB5BD /* SingData */;
+			targetProxy = 676BA6021DA03B67006DB5BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		676BA5EE1DA03B67006DB5BD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				676BA5EF1DA03B67006DB5BD /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		676BA6081DA03B67006DB5BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		676BA6091DA03B67006DB5BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		676BA60B1DA03B67006DB5BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8J5GF94X5S;
+				INFOPLIST_FILE = SingData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ponyfleisch.SingData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		676BA60C1DA03B67006DB5BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8J5GF94X5S;
+				INFOPLIST_FILE = SingData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ponyfleisch.SingData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		676BA60E1DA03B67006DB5BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8J5GF94X5S;
+				INFOPLIST_FILE = SingDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ponyfleisch.SingDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SingData.app/Contents/MacOS/SingData";
+			};
+			name = Debug;
+		};
+		676BA60F1DA03B67006DB5BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8J5GF94X5S;
+				INFOPLIST_FILE = SingDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ponyfleisch.SingDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SingData.app/Contents/MacOS/SingData";
+			};
+			name = Release;
+		};
+		676BA6111DA03B67006DB5BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8J5GF94X5S;
+				INFOPLIST_FILE = SingDataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ponyfleisch.SingDataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SingData;
+			};
+			name = Debug;
+		};
+		676BA6121DA03B67006DB5BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8J5GF94X5S;
+				INFOPLIST_FILE = SingDataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ponyfleisch.SingDataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SingData;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		676BA5E21DA03B66006DB5BD /* Build configuration list for PBXProject "SingData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				676BA6081DA03B67006DB5BD /* Debug */,
+				676BA6091DA03B67006DB5BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		676BA60A1DA03B67006DB5BD /* Build configuration list for PBXNativeTarget "SingData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				676BA60B1DA03B67006DB5BD /* Debug */,
+				676BA60C1DA03B67006DB5BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		676BA60D1DA03B67006DB5BD /* Build configuration list for PBXNativeTarget "SingDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				676BA60E1DA03B67006DB5BD /* Debug */,
+				676BA60F1DA03B67006DB5BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		676BA6101DA03B67006DB5BD /* Build configuration list for PBXNativeTarget "SingDataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				676BA6111DA03B67006DB5BD /* Debug */,
+				676BA6121DA03B67006DB5BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 676BA5DF1DA03B66006DB5BD /* Project object */;
+}
