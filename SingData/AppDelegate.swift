@@ -1,27 +1,54 @@
-//
-//  AppDelegate.swift
-//  SingData
-//
-//  Created by Claudio Mettler on 02.10.16.
-//  Copyright © 2016 Claudio Mettler. All rights reserved.
-//
-
 import Cocoa
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
-
-    @IBOutlet weak var window: NSWindow!
-
-
-    func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+    var statusItem = NSStatusBar.system().statusItem(withLength: NSVariableStatusItemLength)
+    var menu: NSMenu = NSMenu()
+    var menuItem : NSMenuItem = NSMenuItem()
+    var refreshItem : NSMenuItem = NSMenuItem()
+    
+    override init(){
+        super.init()
+        statusItem.title = "loading..."
+        statusItem.menu = menu
+        menuItem.title = "Quit"
+        menuItem.target = self
+        menuItem.action = #selector(quitClicked(sender:))
+        refreshItem.title = "refresh"
+        refreshItem.target = self
+        refreshItem.action = #selector(updateInfo(sender:))
+        menu.addItem(refreshItem)
+        menu.addItem(menuItem)
     }
-
-    func applicationWillTerminate(_ aNotification: Notification) {
-        // Insert code here to tear down your application
+    
+    func quitClicked(sender: NSMenuItem) {
+        NSApplication.shared().terminate(self)
     }
-
-
+    
+    func updateInfo(sender: NSMenuItem?) {
+        NSLog("refreshing...")
+        let url = URL(string: "https://hi.singtel.com/welcome.do")
+        do {
+            let myHTMLString = try String(contentsOf: url!)
+            do {
+                let regex = try NSRegularExpression(pattern: "<!--\\s*([0-9\\.]*)\\s*MB\\s*-->")
+                let range = NSMakeRange(0, myHTMLString.characters.count)
+                let nsString = myHTMLString as NSString
+                let matches = regex.matches(in: myHTMLString, range: range)
+                let result = matches.map({ Float(nsString.substring(with: $0.rangeAt(1))) ?? 0}).reduce(0.0, {$0 + $1})
+                statusItem.title = String(String(result) + " MB")
+                NSLog(String(result), " MB")
+            }catch let error as NSError {
+                NSLog(error.localizedDescription)
+            }
+        }catch let error as NSError {
+            NSLog(error.localizedDescription)
+        }
+    }
+    
+    func applicationDidFinishLaunching(_ notification: Notification) {
+        updateInfo(sender:nil)
+        Timer.scheduledTimer(timeInterval: 60, target: self, selector: #selector(updateInfo), userInfo: nil, repeats: true)
+    }
+    
 }
-

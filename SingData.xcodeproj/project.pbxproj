@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		676BA5EB1DA03B67006DB5BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676BA5EA1DA03B67006DB5BD /* AppDelegate.swift */; };
-		676BA5ED1DA03B67006DB5BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 676BA5EC1DA03B67006DB5BD /* Assets.xcassets */; };
-		676BA5F01DA03B67006DB5BD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 676BA5EE1DA03B67006DB5BD /* MainMenu.xib */; };
 		676BA5FB1DA03B67006DB5BD /* SingDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676BA5FA1DA03B67006DB5BD /* SingDataTests.swift */; };
 		676BA6061DA03B67006DB5BD /* SingDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676BA6051DA03B67006DB5BD /* SingDataUITests.swift */; };
+		676BA6151DA03D05006DB5BD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 676BA6131DA03D05006DB5BD /* MainMenu.xib */; };
+		676BA6171DA03D0D006DB5BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 676BA6161DA03D0D006DB5BD /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +34,6 @@
 /* Begin PBXFileReference section */
 		676BA5E71DA03B67006DB5BD /* SingData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		676BA5EA1DA03B67006DB5BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		676BA5EC1DA03B67006DB5BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		676BA5EF1DA03B67006DB5BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		676BA5F11DA03B67006DB5BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		676BA5F61DA03B67006DB5BD /* SingDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		676BA5FA1DA03B67006DB5BD /* SingDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingDataTests.swift; sourceTree = "<group>"; };
@@ -43,6 +41,8 @@
 		676BA6011DA03B67006DB5BD /* SingDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		676BA6051DA03B67006DB5BD /* SingDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingDataUITests.swift; sourceTree = "<group>"; };
 		676BA6071DA03B67006DB5BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		676BA6141DA03D05006DB5BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		676BA6161DA03D0D006DB5BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				676BA5EA1DA03B67006DB5BD /* AppDelegate.swift */,
-				676BA5EC1DA03B67006DB5BD /* Assets.xcassets */,
-				676BA5EE1DA03B67006DB5BD /* MainMenu.xib */,
+				676BA6161DA03D0D006DB5BD /* Assets.xcassets */,
+				676BA6131DA03D05006DB5BD /* MainMenu.xib */,
 				676BA5F11DA03B67006DB5BD /* Info.plist */,
 			);
 			path = SingData;
@@ -229,8 +229,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				676BA5ED1DA03B67006DB5BD /* Assets.xcassets in Resources */,
-				676BA5F01DA03B67006DB5BD /* MainMenu.xib in Resources */,
+				676BA6171DA03D0D006DB5BD /* Assets.xcassets in Resources */,
+				676BA6151DA03D05006DB5BD /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,10 +291,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		676BA5EE1DA03B67006DB5BD /* MainMenu.xib */ = {
+		676BA6131DA03D05006DB5BD /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				676BA5EF1DA03B67006DB5BD /* Base */,
+				676BA6141DA03D05006DB5BD /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
