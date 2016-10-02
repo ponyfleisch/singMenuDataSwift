@@ -31,11 +31,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         do {
             let myHTMLString = try String(contentsOf: url!)
             do {
-                let regex = try NSRegularExpression(pattern: "<!--\\s*([0-9\\.]*)\\s*MB\\s*-->")
+                let regex = try NSRegularExpression(pattern: "\\n\\s*([\\d\\.]*)\\s*[MG]B\\s*\\n")
                 let range = NSMakeRange(0, myHTMLString.characters.count)
                 let nsString = myHTMLString as NSString
                 let matches = regex.matches(in: myHTMLString, range: range)
-                let result = matches.map({ Float(nsString.substring(with: $0.rangeAt(1))) ?? 0}).reduce(0.0, {$0 + $1})
+                // matches.map({NSLog(nsString.substring(with: $0.rangeAt(1)))})
+                let result = matches.map({ Int(nsString.substring(with: $0.rangeAt(1)).replacingOccurrences(of: ".", with: "")) ?? 0}).reduce(0, {$0 + $1})
                 statusItem.title = String(String(result) + " MB")
                 NSLog(String(result), " MB")
             }catch let error as NSError {
